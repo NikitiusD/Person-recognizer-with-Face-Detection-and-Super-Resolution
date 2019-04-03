@@ -2,8 +2,8 @@ from recognizer import Recognizer
 from skimage.io import imread
 
 THRESHOLD = 0.9
-photo1 = imread('me(1).jpg')
-photo2 = imread('matthew.jpg')
+photo1 = imread('1.jpg')
+photo2 = imread('2.jpg')
 recognizer = Recognizer()
 similarity = recognizer.get_best_similarity(photo1, photo2)
 if similarity < THRESHOLD:
