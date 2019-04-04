@@ -28,6 +28,6 @@ for face in result:
     cv2.circle(image, (keypoints['mouth_left']), 2, color, 2)
     cv2.circle(image, (keypoints['mouth_right']), 2, color, 2)
 
-cv2.imwrite(f"{file_name}_drawn.jpg", image)
+cv2.imwrite(f"{file_name}_face.jpg", image)
 
 print(result)
