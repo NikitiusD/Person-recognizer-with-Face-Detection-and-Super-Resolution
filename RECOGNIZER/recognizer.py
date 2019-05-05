@@ -2,16 +2,16 @@ from scipy.spatial import distance
 from skimage.transform import rotate
 import numpy as np
 import tensorflow as tf
-from mtcnn.mtcnn import MTCNN
+from RECOGNIZER.MTCNN.mtcnn import MTCNN
 
-from facenet import load_model, load_image
+from RECOGNIZER.facenet import load_model, load_image
 
 class Recognizer():
     def __init__(self, image_size=160):
         self.face_detector = MTCNN()
         with tf.Graph().as_default():
             self.sess = tf.Session()
-            load_model('./facenet_models/facenet/', self.sess)
+            load_model('RECOGNIZER/facenet_models/facenet/', self.sess)
             images_placeholder = tf.get_default_graph().get_tensor_by_name("input:0")
             self.images_placeholder = tf.image.resize_images(
                 images_placeholder, (image_size, image_size))
