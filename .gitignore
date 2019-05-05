@@ -1,6 +1,8 @@
 dataset/
 output*/
 facenet_models/
+*.jpg
+*.pptx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
