@@ -3,6 +3,7 @@ output*/
 facenet_models/
 *.jpg
 *.pptx
+*.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
