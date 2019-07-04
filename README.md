@@ -28,14 +28,14 @@ The whole benchmark:
 In fact, the results on metrics are very interesting for further research.  
 For a more complete research, a larger dataset and more models trained specifically on people's faces are needed.
 # Papers and works used in research (only those that gave the result)
-https://github.com/ipazc/mtcnn <- https://arxiv.org/abs/1604.02878  
-https://github.com/jiny2001/dcscn-super-resolution <- https://arxiv.org/abs/1707.05425  
-https://github.com/thstkdgus35/EDSR-PyTorch <- https://arxiv.org/abs/1707.02921  
-https://github.com/alterzero/DBPN-Pytorch <- https://arxiv.org/abs/1803.02735  
-https://github.com/titu1994/Image-Super-Resolution <- https://arxiv.org/abs/1501.00092  
-https://github.com/fperazzi/proSR <- https://arxiv.org/abs/1804.02900  
-https://github.com/Paper99/SRFBN_CVPR19 <- https://arxiv.org/abs/1903.09814  
-https://github.com/xinntao/ESRGAN  
+- https://github.com/ipazc/mtcnn <- https://arxiv.org/abs/1604.02878  
+- https://github.com/jiny2001/dcscn-super-resolution <- https://arxiv.org/abs/1707.05425  
+- https://github.com/thstkdgus35/EDSR-PyTorch <- https://arxiv.org/abs/1707.02921  
+- https://github.com/alterzero/DBPN-Pytorch <- https://arxiv.org/abs/1803.02735  
+- https://github.com/titu1994/Image-Super-Resolution <- https://arxiv.org/abs/1501.00092  
+- https://github.com/fperazzi/proSR <- https://arxiv.org/abs/1804.02900  
+- https://github.com/Paper99/SRFBN_CVPR19 <- https://arxiv.org/abs/1903.09814  
+- https://github.com/xinntao/ESRGAN  
 
 > Also big thanks to [papers with code](https://paperswithcode.com/task/image-super-resolution) for help in searching.
 # Team members
