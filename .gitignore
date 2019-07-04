@@ -1,7 +1,6 @@
-dataset/
+dataset*/
 output*/
 facenet_models/
-*.jpg
 *.pptx
 *.zip
 
