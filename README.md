@@ -1,20 +1,20 @@
-# **Person recognizer with Face Detection and Super-Resolution**
+# **Person verification with Face Detection and Super-Resolution**
 
 # Introductory
-Suppose there are 2 photos of a person in front of us, and we need to determine if this is the same person. And we made a face recognition algorithm that determines whether the same person is in the photos or not.
+Suppose there are 2 photos of a person in front of us, and we need to determine if this is the same person. And we made a face verification algorithm that determines whether the same person is in the photos or not.
 # Problem
-We want to find out if it is possible to improve the quality of recognition with the help of Super-Resolution techniques.  
+We want to find out if it is possible to improve the quality of verification with the help of Super-Resolution techniques.  
 
-Thus, **we want to confirm the hypothesis of whether it is possible to improve the quality of recognition with the help of preliminary upscaling (applying Super-Resolution)**.
+Thus, **we want to confirm the hypothesis of whether it is possible to improve the quality of verification with the help of preliminary upscaling (applying Super-Resolution)**.
 
 And we don't know which metric is best for us. Since this is a binary classification problem (1 - the same person on pair of pics, 0 - otherwise), we take `Accuracy`, `Precision`, `Recall`, `F1` and entire `Confusion Matrix` just in case.
 
 # The way to achieve the result
 We took [Labeled Faces in the Wild open dataset](http://vis-www.cs.umass.edu/lfw/) for our experiments. Then we made up 834 pairs of persons belonging to the same person, and 834 pairs of faces of different people. A total of 1,668 pairs - we thought that would be enough for a primary research. In addition, we did not have computational resources.
 
-Then, we tested the recognition algorithm on the obtained data, saved the results, and began to search through all the pre-trained Super-Resolution algorithms available to us (by configuration). Many of papers we managed to reproduce and run, but many, unfortunately, failed, for various reasons.
+Then, we tested the verification algorithm on the obtained data, saved the results, and began to search through all the pre-trained Super-Resolution algorithms available to us (by configuration). Many of papers we managed to reproduce and run, but many, unfortunately, failed, for various reasons.
 
-After receiving the images after applying the Super-Resolution, we apply the recognition algorithm to them and put the obtained values ​​of the metrics into the benchmark.
+After receiving the images after applying the Super-Resolution, we apply the verification algorithm to them and put the obtained values ​​of the metrics into the benchmark.
 
 Since we do not know which metric is most important to us, we introduce a new one - Rank, which shows Accuracy, Precision and Recall together.
 
