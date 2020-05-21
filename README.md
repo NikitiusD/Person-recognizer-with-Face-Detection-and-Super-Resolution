@@ -1,6 +1,6 @@
 # **Person verification with Face Detection and Super-Resolution**
 
-# Introductory
+# Introduction
 Suppose there are 2 photos of a person in front of us, and we need to determine if this is the same person. And we made a face verification algorithm that determines whether the same person is in the photos or not.
 # Problem
 We want to find out if it is possible to improve the quality of verification with the help of Super-Resolution techniques.  
