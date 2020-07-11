@@ -1,4 +1,4 @@
-# **Person verification with Super-Resolution**
+# **Person Verification with Super-Resolution**
 
 # Introduction
 Let's assume that there are 2 photos of people in front of us and we need to determine if the same person is depicted in the photos or not. Also suppose that we have an algorithm for verifying the person which answers this question.
@@ -39,4 +39,4 @@ For a more complete research, a larger dataset and more models trained specifica
 
 > Thanks to [papers with code](https://paperswithcode.com/task/image-super-resolution).
 # Team members
-> [Nikita Detkov](https://github.com/NikitiusD), [Ilya Liyasov](https://github.com/Literman), Tanya Vasilyeva.
+> [Nikita Detkov](https://www.kaggle.com/detkov), [Ilya Liyasov](https://github.com/Literman), Tanya Vasilyeva.
